@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Lighty_The_Light">
+    <meta name="keyword" content="Asteroid, Simulator, Game, GameJam, Lighty_The_Light">
+    <meta name="description" content="Asteroid Simulator Game Official Website">
+    <title>AsteroidSim!</title>
+    <link rel="stylesheet" href="~/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/sweetalert/dist/sweetalert.css">
+    <link rel="stylesheet" href="~/css/stisla.css">
+</head>
+<body>
+    <section class="hero bg-overlay" id="hero" data-bg="../../img/hero.jpg">
+        <div class="text py-5">
+            <h1><span class="bold">LiteNote</span></h1>
+            @RenderBody()
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="~/img/logo-light.png" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="ion-navicon"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="@Url.Action("Main","Home")#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Main","Home")#blog">Extensions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@Url.Action("Main","Home")#project">Get The Game</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <a href="@Url.Action("Search","Home")" class="btn smooth-link align-middle btn-primary">Search...</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </section>
+    <footer>
+        <div class="container">
+            <figure>
+                <img src="~/img/logo-light.png" alt="Logo">
+            </figure>
+            <p>
+                Made with <i class="ion-heart"></i> By Lighty_The_Light
+            </p>
+            <p>
+                Website Powered By Stisla. | hi@kodinger.com
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.easeScroll.js"></script>
+    <script src="~/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="~/js/stisla.js"></script>
+</body>
+</html>

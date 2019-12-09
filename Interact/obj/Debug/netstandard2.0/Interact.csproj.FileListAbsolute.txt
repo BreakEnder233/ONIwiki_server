@@ -1,0 +1,8 @@
+C:\Users\或许是小光\source\repos\ONIwiki_server\Interact\bin\Debug\netstandard2.0\Interact.deps.json
+C:\Users\或许是小光\source\repos\ONIwiki_server\Interact\bin\Debug\netstandard2.0\Interact.dll
+C:\Users\或许是小光\source\repos\ONIwiki_server\Interact\obj\Debug\netstandard2.0\Interact.AssemblyInfoInputs.cache
+C:\Users\或许是小光\source\repos\ONIwiki_server\Interact\obj\Debug\netstandard2.0\Interact.AssemblyInfo.cs
+C:\Users\或许是小光\source\repos\ONIwiki_server\Interact\bin\Debug\netstandard2.0\Interact.pdb
+C:\Users\或许是小光\source\repos\ONIwiki_server\Interact\obj\Debug\netstandard2.0\Interact.dll
+C:\Users\或许是小光\source\repos\ONIwiki_server\Interact\obj\Debug\netstandard2.0\Interact.pdb
+C:\Users\或许是小光\source\repos\ONIwiki_server\Interact\obj\Debug\netstandard2.0\Interact.csprojAssemblyReference.cache

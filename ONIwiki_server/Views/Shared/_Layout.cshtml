@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="Lighty_The_Light">
+    <meta name="keyword" content="Asteroid, Simulator, Game, GameJam, Lighty_The_Light">
+    <meta name="description" content="Asteroid Simulator Game Official Website">
+    <title>AsteroidSim!</title>
+    <link rel="stylesheet" href="~/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="~/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/sweetalert/dist/sweetalert.css">
+    <link rel="stylesheet" href="~/css/stisla.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg main-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="~/img/logo-light.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <i class="ion-navicon"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="mr-auto"></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link smooth-link" href="@Url.Action("Main","Home")#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-link" href="@Url.Action("Main","Home")#blog">Extensions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link smooth-link" href="@Url.Action("Main","Home")#project">Get The Game</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <a href="@Url.Action("Search","Home")" class="btn smooth-link align-middle btn-primary">Search...</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="hero bg-overlay" id="hero" data-bg="../../img/hero.jpg">
+        <div class="text py-5">
+            <p class="lead">Made By Lighty_The_Light</p>
+            <h1><span class="bold">LiteNote</span></h1>
+            <div class="cta">
+                <a href="#project" class="btn btn-primary smooth-link">Get Your Note!</a>
+            </div>
+        </div>
+    </section>
+    <!--
+    <section class="padding" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-sm-12">
+                    <div class="list-item">
+                        <div class="icon">
+                            <i class="ion-wand"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Become a asteroid!</h2>
+                            <p>
+                                Born with the very universe, travel far from your father's home and search for future.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-sm-12">
+                    <div class="list-item">
+                        <div class="icon">
+                            <i class="ion-merge"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Choose your path</h2>
+                            <p>
+                                creatures, atmosphere, plants, animals... YOU decide what happens to them! And even to yourself!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-sm-12">
+                    <div class="list-item no-spacing">
+                        <div class="icon">
+                            <i class="ion-heart"></i>
+                        </div>
+                        <div class="desc">
+                            <h2>Settle as something else</h2>
+                            <p>
+                                Your fate awaits, not too close, nor too far away. You'll become what you choose.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        -->
+    @RenderBody()
+
+    <!--
+    <section class="bg-overlay padding" id="project" data-bg="../../img/projects.jpeg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <figure class="projects-picture">
+                        <img src="~/img/cover.png" alt="Cover">
+                    </figure>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="projects-details">
+                        <div class="projects-badge">
+                            Get The Game
+                        </div>
+                        <h2 class="projects-title">Asteroid Simulator Game</h2>
+                        <p class="projects-description">
+                            Asteroid Simulator Game Mobile Edition Coming Soon!
+                        </p>
+                        <div class="projects-cta">
+                            <a href="https://breakender233.itch.io/asteroidsimulatorgame" class="btn btn-primary" target="_blank">
+                                Get PC Version in itch.io!
+                            </a>
+                            <a href="https://ldjam.com/events/ludum-dare/45/asteroidsimulatorgame" class="btn btn-link" target="_blank">
+                                Support me on Ludum Dare Jam!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        -->
+
+    <footer>
+        <div class="container">
+            <figure>
+                <img src="~/img/logo-light.png" alt="Logo">
+            </figure>
+            <p>
+                Made with <i class="ion-heart"></i> By Lighty_The_Light
+            </p>
+            <p>
+                Website Powered By Stisla. | hi@kodinger.com
+            </p>
+        </div>
+    </footer>
+
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.easeScroll.js"></script>
+    <script src="~/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="~/js/stisla.js"></script>
+</body>
+</html>
